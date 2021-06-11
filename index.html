@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Form Page</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main id="main">
+<div id = "container">
+  <div>
+<h1 id = "title">Unemployment Application</h1>
+</div>
+<div>
+  <p id = "description">This is a form for you to fill out for your unemployment benefits.</p>
+  </div>
+  <div>
+<form id = "name">
+  <label id = "name-label">Name</label>
+  <input id = "name-input" style = "text" placeholder = "Enter Your Name" required></input>
+</form>
+</div>
+<div class = "form-group">
+<form id = "email">
+  <label id = "email-label">Email</label>
+  <input id = "email-input" style = "text" placeholder = "Enter Your Email" required> </input>
+</form>
+</div>
+<div class = "form-group">
+<form id = "age">
+  <label id = "age-label">Age</label>
+  <input id = "age-input" style = "text" placeholder = "Enter Your Age" required> </input>
+</div>
+<div class = "form-group">
+  <p> Here you will select what your situation is:</p>
+  <select id = "dropdown">
+    <option disabled-selected-value>Select Current Role</option>
+    <option value = "student">Student</option>
+    <option value = "part-time-worker">Part Time Worker</option>
+    <option value = "full-time-worker">Full Time Worker</option>
+    <option id = "unemployed-non-student">Unemployed Non Student</option>
+  </select>
+</div>
+<div class = "form-group">
+  <p> Let us know if you will recommend us!</p>
+  <div id = "radio-container">
+  <label id = "label-radio">
+    <input id = "radio" name = "radio" type = "radio" class = "input-radio" value = "definitely">Definitely</input>
+  </label>
+<label id = "label-radio">
+   <input name = "radio" type = "radio" value = "maybe" class = "input-radio">Maybe</input>
+</label>
+<label id = "label-radio">
+ <input name = "radio" type = "radio" value = "never" class = "input-radio">Never</input>
+</label>
+<div class = "form-group">
+  <p> Any Additional Comments You Have Can Be Written Below. </p>
+  <textarea id = "comments" placeholder = "Enter and additional comments here" ></textarea>
+</div>
+<div class = "form-group text-center">
+  <button id = "submit" type = "Submit" class = "submit-button btn btn-primary">Submit</button>
+</div>
+</div>
+</main>
+<!-- partial -->
+  
+</body>
+</html>

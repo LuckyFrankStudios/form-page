@@ -1,0 +1,70 @@
+#container {
+  max-width: 500px;
+  margin: auto;
+  background-color: #5F9EA0;
+  padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+  padding-right: 40px
+}
+p { 
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+h1{
+  text-align: center;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  padding-bottom: 10px;
+}
+#name-label{
+  margin-bottom: -1px
+}
+#name-input { 
+  display: flex;}
+#email-label{
+  margin-bottom: -1px;
+    padding-top: 10px;
+}
+#email-input {
+  display: flex;
+}
+#age-label{
+  margin-bottom: -1px;
+  padding-top: 10px;
+}
+#age-input {
+  display: flex;
+}
+
+#dropdown {
+  display: flex;
+}
+#radio-container {
+  display: block;
+}
+label {
+    display: flex;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+#commments {
+    min-height: 120px;
+    width: 100%;
+    padding: 100px;
+    resize: vertical;
+}
+#main {
+  background-color: #FAEBD7;
+    max-width: 1000px;
+  margin: auto;
+  border-style: solid;
+    border-width: thick;
+  
+}
+
+#input-radio {
+  font-size: 1.25em;
+}
+
+#label-radio {
+  align-items: center;
+}
